@@ -1,0 +1,12 @@
+{
+  "domain": "ipp_lexmark",
+  "name": "Internet Printing Protocol fro Lexmark",
+  "codeowners": ["@ctalkington"],
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/ipp",
+  "iot_class": "local_polling",
+  "loggers": ["deepmerge"],
+  "requirements": [],
+  "zeroconf": ["_ipps._tcp.local.", "_ipp._tcp.local."],
+  "version": "1.0.0"
+}
